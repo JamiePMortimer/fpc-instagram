@@ -1,25 +1,37 @@
-body{
-margin: 0;
+body {
+  margin: 0;
+  background-color: rgb(233, 233, 231);
 }
-.phone-holder{
+
+/* iPhone Section */
+
+.top-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-left {
+  width: 640px;
+}
+
+.phone-holder {
   margin: 50px 0 0 200px;
   width: 454px;
   height: 618px;
   background-image: url(images/iPhone.png);
-
 }
 
 /* Demo 1 */
 
 #cf3 {
-  position:relative;
-  height:281px;
-  width:454px;
-  margin:0 auto;
+  position: relative;
+  height: 281px;
+  width: 454px;
+  margin: 0 auto;
 }
 #cf3 img {
-  position:absolute;
-  right:64px;
+  position: absolute;
+  right: 64px;
   top: 100px;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
@@ -28,27 +40,27 @@ margin: 0;
 }
 
 #cf3 img.transparent {
-opacity:0;
+  opacity: 0;
 }
 
 /* Demo 2 */
 
-@keyframes FadeInOut{
-0%{
-  opacity: 1;
+@keyframes FadeInOut {
+  0% {
+    opacity: 1;
   }
-17%{
-  opacity: 1;
-}
-25%{
-  opacity: 0;
-}
-92%{
-  opacity: 0;
-}
-100%{
-  opacity: 0;
-}
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  92% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 #cf3 img.top {
@@ -57,7 +69,7 @@ opacity:0;
   animation-iteration-count: infinite;
   animation-duration: 8s;
   animation-direction: alternate;
-  }
+}
 
 #cf3 img:nth-of-type(1) {
   animation-delay: 6s;
@@ -70,4 +82,14 @@ opacity:0;
 }
 #cf3 img:nth-of-type(4) {
   animation-delay: 0s;
+}
+
+/* Login Section */
+
+.login {
+  border: 1px solid rgba(199, 198, 198, 0.644);
+  margin: 80px 0 0 20px;
+  width: 350px;
+  height: 380px;
+  background-color: white;
 }
