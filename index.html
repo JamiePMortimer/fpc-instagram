@@ -20,25 +20,27 @@
         </div>
       </div>
       <div class="top-right">
+        <form>
         <div class="login">
           <div class="logo-holder"></div>
             <div class="username-input">
-              <input type="text" name="userName" id="userName" required/>
+              <input type="text" name="userName" id="userName" autocomplete="off" required/>
               <label for="userName" class="user-name">
                 <span class="content-name">Phone number, username, or email</span>
               </label>
             </div><br>
             <div class="password-input">
-              <input type="password" name="pword" id="pword" required/>
+              <input type="password" name="pword" id="pword" autocomplete="off" required/>
             <label for="password" class="pass-word">
               <span class="pass-name">Password</span>
             </label>
             <button id="hideShow">Show</button>
             </div><br>
-            <input type="submit" value="Log In">
+            <input type="submit" class="login-btn disabled" value="Log In">
             <p>OR</p>
             <br>
         </div>
+      </form>
       </div>
     </div>
     <div class="footer"></div>

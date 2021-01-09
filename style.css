@@ -188,3 +188,22 @@ border: none;
 border-radius: 0 3px 3px 0;
 outline: none;
 }
+
+.login-btn{
+  width: 256px;
+  margin: 0 46px;
+  height: 30px;
+  color: white;
+  font-weight: 400;
+  border: none;
+  outline: none;
+}
+
+.disabled{
+  background-color: powderblue;
+  pointer-events: none;
+}
+
+.active{
+  background-color: #0095f6
+}
