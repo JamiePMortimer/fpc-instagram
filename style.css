@@ -87,9 +87,52 @@ body {
 /* Login Section */
 
 .login {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
   border: 1px solid rgba(199, 198, 198, 0.644);
   margin: 80px 0 0 20px;
   width: 350px;
   height: 380px;
   background-color: white;
+}
+
+.logo-holder{
+  margin: 30px 0 20px 25%;
+  background-image: url(images/sprite.png);
+  background-repeat: no-repeat;
+  background-position: 0 -130px;
+  width: 175px;
+  height: 51px;
+  border: 1px solid black;
+}
+
+#userName{
+  background-color: rgb(179, 177, 177);
+  border: 1px solid rgba(209, 208, 208, 0.616);
+  margin-bottom: 20px;
+  width: 250px;
+  height: 30px;
+}
+
+#pword{
+  height: 30px;
+  width: 186px;
+  padding: 0 0 0 20px;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+
+.pass{
+  margin: 0 46px;
+  border: 1px solid rgba(190, 190, 190, 0.5);
+  border-radius: 3px;
+}
+
+#hideShow{
+height: 30px;
+width: 50px;
+border: none;
+outline: none;
 }
