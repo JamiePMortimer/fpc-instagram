@@ -1,79 +1,37 @@
 # instagram Clone
 
-Clone site of the instagram login page
+Clone site of the instagram login page.
 
 ## Project aims
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+To produce a semi-functional frontpage of instagram to practice and improve HTML, CSS & JS knowledge and skills and to expand knowledge range through the challenges faced in replicating the site.
 
-### Prerequisites
+It is not intended to link to instagram and isn't responsive so should only reliably render on desktops.
 
-What things you need to install the software and how to install them
+### Challenges
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Form input animations
 
 ```
-Give the example
+Having not learned this skill yet, I had to rely heavily on a tutorial by Dev Ed on form animations, while straightforward for the username element, took a little adapting for the 2nd input as the animation wasn't activating
 ```
 
-And repeat
+Show/Hide button
 
 ```
-until finished
+I'd read about the updating of the class elements to get the login buttons to hide or reveal the password, but hadn't applied this myself. The application of the functionality was straightforward enough, although the button drove the submission of the form when used. Resolved this by setting the type to 'button.
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Image Crossfade
 
 ```
-Give an example
+The site had an iPhone backround image with a div section with an image carousel. I had to rely heavily on the article below and replicate the code.
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Resources 
+## Learning/Research Resources Used
 
 * [CSS Image Crossfade](http://css3.bradshawenterprises.com/cfimg/)
 * [YouTube - Dev Ed](https://maven.apache.org/) - Input Animations
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Demo
 

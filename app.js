@@ -17,7 +17,7 @@ function buttonToggler (){
 }
 
 loginListener.addEventListener('input', ()=>{
-  if (usernameInput.value !== '' && inputHandler.value !== ''){
+  if (usernameInput.value !== '' && inputHandler.value !== '' && inputHandler.value.length > 5){
     loginBtn.classList.remove('disabled')
     // loginBtn.classList.toggle('disabled')
   }
