@@ -20,30 +20,92 @@
         </div>
       </div>
       <div class="top-right">
-        <form>
         <div class="login">
-          <div class="logo-holder"></div>
-            <div class="username-input">
-              <input type="text" name="userName" id="userName" autocomplete="off" required/>
-              <label for="userName" class="user-name">
-                <span class="content-name">Phone number, username, or email</span>
-              </label>
-            </div><br>
-            <div class="password-input">
-              <input type="password" name="pword" id="pword" autocomplete="off" required/>
-            <label for="password" class="pass-word">
-              <span class="pass-name">Password</span>
-            </label>
-            <button id="hideShow" type="button">Show</button>
-            </div><br>
-            <input type="submit" class="login-btn disabled" value="Log In">
-            <p>OR</p>
-            <br>
+          <form>
+            <div class="logo-holder"></div>
+            <div class="input-container">
+              <div class="username-input">
+                <input
+                  type="text"
+                  name="userName"
+                  id="userName"
+                  autocomplete="off"
+                  required
+                />
+                <label for="userName" class="user-name">
+                  <span class="content-name"
+                    >Phone number, username, or email</span
+                  >
+                </label>
+              </div>
+              <div class="password-input">
+                <input
+                  type="password"
+                  name="pword"
+                  id="pword"
+                  autocomplete="off"
+                  required
+                />
+                <label for="password" class="pass-word">
+                  <span class="pass-name">Password</span>
+                </label>
+                <button id="hideShow" type="button">Show</button>
+              </div>
+              <input type="submit" class="login-btn disabled" value="Log In" />
+            </div>
+          </form>
+          <div class="or-container">
+            <div class="OR-space"></div>
+            <div class="OR">OR</div>
+            <div class="OR-space"></div>
+          </div>
+        <a href="http://"><div class="fb"><i class="fab fa-facebook-square"></i>   Login with Facebook</div></a>  
+        <a href="http://"><div class="forgot">Forgot password?</div></a>
         </div>
-      </form>
+        <div class="no-acct">
+          <p class="no-acc">Don't have an account?</p><a href="http://"><p class="signUp">Sign up</p></a>
+        </div>
+        <div class="get-app">
+          <p>Get the app.</p>
+        <a href="http://">  <img src="images/apple.png" class="apps" alt=""></a>
+          <a href="http://"><img src="images/Google.png" class="apps"  alt=""></a>
+        </div>
       </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+      <div class="ft1">
+        <ul>
+          <li>About</li>
+          <li>Blog</li>
+          <li>Jobs</li>
+          <li>Help</li>
+          <li>API</li>
+          <li>Privacy</li>
+          <li>Terms</li>
+          <li>Top Accounts</li>
+          <li>Hashtags</li>
+          <li>Locations</li>
+        </ul>
+      </div>
+      <div class="ft2">
+        <ul>
+          <li>Beauty</li>
+          <li>Dance & Performance</li>
+          <li>Fitness</li>
+          <li>Food & Drink</li>
+          <li>Home & Garden</li>
+          <li>Music</li>
+          <li>Visual Arts</li>
+        </ul>
+      </div>
+      <div class="final">
+        <ul>
+          <li>English</li>
+          <li>© 2021 JamiePMortimer</li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/f331affee2.js" crossorigin="anonymous"></script>
     <script src="app.js" defer></script>
   </body>
 </html>
