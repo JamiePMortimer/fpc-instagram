@@ -16,9 +16,10 @@ function buttonToggler (){
 }
 }
 
-loginListener.addEventListener('input', ()=>{
-  if (usernameInput.value !== '' && inputHandler.value !== '' && inputHandler.value.length > 5){
-    loginBtn.classList.remove('disabled')
-    // loginBtn.classList.toggle('disabled')
+loginListener.addEventListener('keyup', ()=>{
+  if (usernameInput.value !== '' && inputHandler.value.length > 4){
+    loginBtn.classList.remove('disabled');
+  } else {
+    loginBtn.classList.add('disabled');
   }
 })
